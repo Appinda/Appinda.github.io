@@ -7,5 +7,6 @@ module.exports = withSass({
       '/': { page: '/' },
       '/about': { page: '/about' }
     };
-  }
+  },
+  distDir: '_next'
 });
