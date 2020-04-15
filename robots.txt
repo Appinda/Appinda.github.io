@@ -1,2 +1,4 @@
 User-agent: *
 Disallow: /src
+Disallow: /404
+Disallow: /_next
