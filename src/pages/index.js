@@ -1,9 +1,9 @@
-import Layout from '../components/MyLayout';
+import Layout from '../layouts/MyLayout';
 
 export default function Index() {
   return (
     <Layout>
-      <p>Hello Next.js</p>
+      <p>Welcome to Appinda</p>
     </Layout>
   );
 }

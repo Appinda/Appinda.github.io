@@ -1,18 +1,13 @@
-import Link from 'next/link';
+import Link from './Link';
 
-const linkStyle = {
-  marginRight: 15
-};
-
-const Header = () => (
-  <div>
+export default () => (
+  <nav className="header">
+    <span className="logo">Appinda</span>
     <Link href="/">
-      <a style={linkStyle}>Home</a>
+      <a>Home</a>
     </Link>
     <Link href="/about">
-      <a style={linkStyle}>About</a>
+      <a>About</a>
     </Link>
-  </div>
+  </nav>
 );
-
-export default Header;
